@@ -8,10 +8,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Dova" Version="1.1.1" />
-        <PackageReference Include="Dova.InterfaceProviders.Moq" Version="1.1.1" />
-        <PackageReference Include="Dova.JDK" Version="1.1.1" />
-        <PackageReference Include="Dova.JDK.Extensions" Version="1.1.1" />
+        <PackageReference Include="Dova" Version="1.2.0" />
+        <PackageReference Include="Dova.InterfaceProviders.Moq" Version="1.2.0" />
+        <PackageReference Include="Dova.JDK" Version="1.2.0" />
+        <PackageReference Include="Dova.JDK.Extensions" Version="1.2.0" />
         
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
         <PackageReference Include="xunit" Version="2.4.1" />
@@ -24,5 +24,20 @@
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
     </ItemGroup>
+
+<!--    <ItemGroup>-->
+<!--      <Reference Include="Dova">-->
+<!--        <HintPath>..\..\..\Dova\src\Dova\bin\Debug\net6.0\Dova.dll</HintPath>-->
+<!--      </Reference>-->
+<!--      <Reference Include="Dova.InterfaceProviders.Moq">-->
+<!--        <HintPath>..\..\..\Dova.InterfaceProviders.Moq\src\Dova.InterfaceProviders.Moq\bin\Debug\net6.0\Dova.InterfaceProviders.Moq.dll</HintPath>-->
+<!--      </Reference>-->
+<!--      <Reference Include="Dova.JDK">-->
+<!--        <HintPath>..\..\..\Dova.JDK\src\Dova.JDK\bin\Debug\net6.0\Dova.JDK.dll</HintPath>-->
+<!--      </Reference>-->
+<!--      <Reference Include="Dova.JDK.Extensions">-->
+<!--        <HintPath>..\..\..\Dova.JDK.Extensions\src\Dova.JDK.Extensions\bin\Debug\net6.0\Dova.JDK.Extensions.dll</HintPath>-->
+<!--      </Reference>-->
+<!--    </ItemGroup>-->
 
 </Project>
