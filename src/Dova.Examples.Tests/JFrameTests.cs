@@ -1,5 +1,4 @@
 using System.Threading;
-using Dova.Core;
 using Dova.JDK.Extensions;
 using Dova.JDK.java.awt;
 using Dova.JDK.javax.swing;
@@ -14,8 +13,6 @@ public class JFrameTests : BaseTestClass
     {
         Setup();
 
-        DovaVM.Initialize(new DovaConfiguration());
-        
         var jframe = new JFrame("Simple Window using JNI".ToJava());
         jframe.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE_Property);
 
@@ -23,11 +20,11 @@ public class JFrameTests : BaseTestClass
         jlabel.setPreferredSize(new Dimension(300, 100));
 
         jframe.getContentPane().add(jlabel, BorderLayout.CENTER_Property);
-        
+
         jframe.setLocationRelativeTo(null);
         jframe.pack();
         jframe.setVisible(true);
-        
+
         Thread.Sleep(5000);
     }
 }

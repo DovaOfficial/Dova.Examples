@@ -11,7 +11,7 @@
         <PackageReference Include="Dova" Version="1.3.0" />
         <PackageReference Include="Dova.InterfaceProviders.Moq" Version="1.3.0" />
         <PackageReference Include="Dova.JDK" Version="1.3.0" />
-        <PackageReference Include="Dova.JDK.Extensions" Version="1.3.0" />
+        <PackageReference Include="Dova.JDK.Extensions" Version="1.3.2" />
         
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
         <PackageReference Include="xunit" Version="2.4.1" />
@@ -25,7 +25,7 @@
         </PackageReference>
     </ItemGroup>
 
-<!--    <ItemGroup>-->
+    <ItemGroup>
 <!--      <Reference Include="Dova">-->
 <!--        <HintPath>..\..\..\Dova\src\Dova\bin\Debug\net6.0\Dova.dll</HintPath>-->
 <!--      </Reference>-->
@@ -38,6 +38,6 @@
 <!--      <Reference Include="Dova.JDK.Extensions">-->
 <!--        <HintPath>..\..\..\Dova.JDK.Extensions\src\Dova.JDK.Extensions\bin\Debug\net6.0\Dova.JDK.Extensions.dll</HintPath>-->
 <!--      </Reference>-->
-<!--    </ItemGroup>-->
+    </ItemGroup>
 
 </Project>

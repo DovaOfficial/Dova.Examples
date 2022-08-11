@@ -14,21 +14,17 @@ public class ConsoleTests : BaseTestClass
         Setup();
 
         var text = "Hello World from JVM using Dova.JDK";
-        
-        DovaVM.Initialize(new DovaConfiguration());
 
         var textPtr = DovaVM.Runtime.GetString(text);
         var str = new String(textPtr);
-        
+
         JDK.java.lang.System.out_Property.println(str);
     }
-    
+
     [Fact]
     public void Should_print_on_console_using_extensions()
     {
         Setup();
-
-        DovaVM.Initialize(new DovaConfiguration());
 
         JDK.java.lang.System.out_Property.println("Hello World from JVM using Dova.JDK".ToJava());
     }
