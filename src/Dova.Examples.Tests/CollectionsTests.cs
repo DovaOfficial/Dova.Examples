@@ -62,4 +62,27 @@ public class CollectionsTests : BaseTestClass
         
         Assert.True(higher.Count == 2);
     }
+
+    [Fact]
+    public void Should_convert_Enumerable_to_Iterable_and_back()
+    {
+        Setup();
+
+        var list = Enumerable
+            .Range(0, 9)
+            .Select(x => x * x)
+            .ToList();
+
+        var iterable = list.AsIterable(x => x.ToJava());
+
+        var converted = iterable
+            .AsEnumerable()
+            .Select(x => new Integer(x.CurrentRefPtr))
+            .ToList();
+
+        for (int index = 0; index < converted.Count; ++index)
+        {
+            Assert.Equal(list[index], converted[index].value_Property);
+        }
+    }
 }
