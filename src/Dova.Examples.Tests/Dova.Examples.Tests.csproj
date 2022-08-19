@@ -15,6 +15,7 @@
         <PackageReference Include="Dova.JDK.ByteBuddy" Version="1.5.0" />
         <PackageReference Include="Dova.JDK.Extensions" Version="1.5.0" />
         <PackageReference Include="Dova.JDK.JNA" Version="1.5.0" />
+        <PackageReference Include="Dova.JDK.Loaders" Version="1.5.0" />
         
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
         <PackageReference Include="xunit" Version="2.4.1" />
@@ -40,6 +41,9 @@
 <!--      </Reference>-->
 <!--      <Reference Include="Dova.JDK.Extensions">-->
 <!--        <HintPath>..\..\..\Dova.JDK.Extensions\src\Dova.JDK.Extensions\bin\Debug\net6.0\Dova.JDK.Extensions.dll</HintPath>-->
+<!--      </Reference>-->
+<!--      <Reference Include="Dova.JDK.Loaders">-->
+<!--        <HintPath>..\..\..\Dova.JDK.Loaders\src\NET\Dova.JDK.Loaders\bin\Debug\net6.0\Dova.JDK.Loaders.dll</HintPath>-->
 <!--      </Reference>-->
     </ItemGroup>
 
