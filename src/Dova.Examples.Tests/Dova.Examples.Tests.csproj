@@ -13,9 +13,9 @@
         <PackageReference Include="Dova.JDK" Version="1.5.0" />
         <PackageReference Include="Dova.JDK.ASM" Version="1.5.0" />
         <PackageReference Include="Dova.JDK.ByteBuddy" Version="1.5.0" />
-        <PackageReference Include="Dova.JDK.Extensions" Version="1.5.0" />
+        <PackageReference Include="Dova.JDK.Extensions" Version="1.5.1" />
         <PackageReference Include="Dova.JDK.JNA" Version="1.5.0" />
-        <PackageReference Include="Dova.JDK.Loaders" Version="1.5.0" />
+        <PackageReference Include="Dova.JDK.Loaders" Version="1.5.1" />
         
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
         <PackageReference Include="xunit" Version="2.4.1" />
